@@ -1,0 +1,890 @@
+Last login: Thu Sep 17 16:34:44 on ttys001
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 80
+drwxr-xr-x+ 29 TylerLidster  staff    986 Sep 17 14:34 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  26 TylerLidster  staff    884 Sep 17 13:27 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:34 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  5 TylerLidster  staff    170 Sep 17 14:07 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ touch somefile.txt
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 80
+drwxr-xr-x+ 30 TylerLidster  staff   1020 Sep 17 16:35 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  26 TylerLidster  staff    884 Sep 17 13:27 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:34 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  5 TylerLidster  staff    170 Sep 17 14:07 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff      0 Sep 17 16:35 somefile.txt
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ touch .bash_history
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 80
+drwxr-xr-x+ 30 TylerLidster  staff   1020 Sep 17 16:35 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  26 TylerLidster  staff    884 Sep 17 13:27 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  5 TylerLidster  staff    170 Sep 17 14:07 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff      0 Sep 17 16:35 somefile.txt
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ nano
+Tylers-MacBook-Pro:~ TylerLidster$ nano somefile.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ 
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 88
+drwxr-xr-x+ 30 TylerLidster  staff   1020 Sep 17 16:35 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  26 TylerLidster  staff    884 Sep 17 13:27 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  5 TylerLidster  staff    170 Sep 17 14:07 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ cat short_file.txt
+cat: short_file.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ cat somefile.txt
+create a file
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ less somefile.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ less lorem_ipsum.txt
+lorem_ipsum.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ nano readingfiles.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clearn
+-bash: clearn: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ head readingfiles.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar, mauris 
+sit amet interdum feugiat, nibh eros elementum turpis, ut lobortis lorem neque 
+nec dui. Fusce convallis ipsum vitae nunc sodales pharetra. Aliquam ac ipsum 
+quam. Phasellus imperdiet, purus facilisis egestas porta, libero augue sagittis 
+magna, in feugiat felis nibh sit amet leo. Sed malesuada scelerisque adipiscing.
+Nulla semper erat eu dui posuere vestibulum. Fusce egestas felis mauris. Donec 
+rhoncus, turpis eu blandit mollis, mi erat semper turpis, vel commodo tortor mi 
+sed nulla. Quisque euismod blandit ante eget posuere. Nulla at massa id est 
+pulvinar sodales. Class aptent taciti sociosqu ad litora torquent per conubia 
+nostra, per inceptos himenaeos. Suspendisse hendrerit elit eget eros dignissim 
+Tylers-MacBook-Pro:~ TylerLidster$ tail readingfiles.txt
+
+Vestibulum vehicula, diam vitae dignissim rhoncus, lorem nisi semper metus, eget
+lobortis urna diam sed nisl. Integer a turpis odio. Curabitur velit tortor, 
+tristique sed vestibulum id, sodales vel lorem. In eu augue diam. Duis lacinia 
+porttitor nisi nec adipiscing. Sed ac orci a tortor pellentesque fermentum vel 
+quis risus. Phasellus ac nisi at ipsum facilisis iaculis. Suspendisse sodales 
+lobortis nisl, eu bibendum nisi volutpat eu. Nam bibendum erat sit amet leo 
+congue et tristique purus scelerisque. Aliquam erat volutpat. Proin nec quam in 
+libero rhoncus pulvinar. Pellentesque at lacus turpis.
+
+Tylers-MacBook-Pro:~ TylerLidster$ less readingfiles.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ tail -f readingfiles.txt
+
+Vestibulum vehicula, diam vitae dignissim rhoncus, lorem nisi semper metus, eget
+lobortis urna diam sed nisl. Integer a turpis odio. Curabitur velit tortor, 
+tristique sed vestibulum id, sodales vel lorem. In eu augue diam. Duis lacinia 
+porttitor nisi nec adipiscing. Sed ac orci a tortor pellentesque fermentum vel 
+quis risus. Phasellus ac nisi at ipsum facilisis iaculis. Suspendisse sodales 
+lobortis nisl, eu bibendum nisi volutpat eu. Nam bibendum erat sit amet leo 
+congue et tristique purus scelerisque. Aliquam erat volutpat. Proin nec quam in 
+libero rhoncus pulvinar. Pellentesque at lacus turpis.
+
+^C
+Tylers-MacBook-Pro:~ TylerLidster$ tail -f somefile.txt
+create a file
+^C
+Tylers-MacBook-Pro:~ TylerLidster$ nano newfile.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ 
+Tylers-MacBook-Pro:~ TylerLidster$ tail -f /var/log/system.log
+	}>
+Sep 17 17:03:10 Tylers-MacBook-Pro kernel[0]: process com.apple.WebKit[5628] caught causing excessive wakeups. Observed wakeups rate (per sec): 331; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 2545495
+Sep 17 17:03:10 Tylers-MacBook-Pro com.apple.xpc.launchd[1] (com.apple.ReportCrash[6035]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Sep 17 17:03:10 Tylers-MacBook-Pro.local ReportCrash[6035]: Invoking spindump for pid=5628 wakeups_rate=331 duration=136 because of excessive wakeups
+Sep 17 17:03:10 Tylers-MacBook-Pro.local spindump[571]: Saved wakeups_resource.diag report for com.apple.WebKit.Plugin.64 version 10600 (10600.8.9) to /Library/Logs/DiagnosticReports/com.apple.WebKit.Plugin.64_2015-09-17-170310_Tylers-MacBook-Pro.wakeups_resource.diag
+Sep 17 17:06:07 Tylers-MacBook-Pro.local CalendarAgent[238]: [com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=401 "The operation couldn’t be completed. (CoreDAVHTTPStatusErrorDomain error 401.)" UserInfo=0x7f7fd1cd1130 {AccountName=Yahoo!, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash 0x7f7fd1ca7730 [0x7fff77fafed0]>{type = immutable dict, count = 6,
+	entries =>
+		0 : Server = ATS
+		1 : Www-Authenticate = <CFString 0x7f7fd6c75090 [0x7fff77fafed0]>{contents = "Basic realm="YahooCalendar"
+Sep 17 17:06:07 Tylers-MacBook-Pro.local CalendarAgent[238]: [com.apple.calendar.store.log.caldav.queue] [Coalescing failed operation [<CalDAVAccountRefreshQueueableOperation: 0x7f7fd28c3b80; Sequence: 0>]]
+clear
+^C
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir testdir
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 168
+drwxr-xr-x+ 33 TylerLidster  staff   1122 Sep 17 17:08 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     20 Sep 17 17:04 newfile.txt
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   2 TylerLidster  staff     68 Sep 17 17:08 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir testdir
+mkdir: testdir: File exists
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir testdir/test1
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 168
+drwxr-xr-x+ 33 TylerLidster  staff   1122 Sep 17 17:08 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     20 Sep 17 17:04 newfile.txt
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   3 TylerLidster  staff    102 Sep 17 17:10 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir -p testdir/test1/test2
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 168
+drwxr-xr-x+ 33 TylerLidster  staff   1122 Sep 17 17:08 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     20 Sep 17 17:04 newfile.txt
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   3 TylerLidster  staff    102 Sep 17 17:10 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la testdir\
+> 
+total 0
+drwxr-xr-x   3 TylerLidster  staff   102 Sep 17 17:10 .
+drwxr-xr-x+ 33 TylerLidster  staff  1122 Sep 17 17:08 ..
+drwxr-xr-x   3 TylerLidster  staff   102 Sep 17 17:10 test1
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 168
+drwxr-xr-x+ 33 TylerLidster  staff   1122 Sep 17 17:08 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     20 Sep 17 17:04 newfile.txt
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   3 TylerLidster  staff    102 Sep 17 17:10 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ mv newfile.txt testdir/newfile.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 160
+drwxr-xr-x+ 32 TylerLidster  staff   1088 Sep 17 17:12 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   4 TylerLidster  staff    136 Sep 17 17:12 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ mv newfile.txt testdir/newfile.txt
+mv: newfile.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ mv newfile.txt ../newfile.txt
+mv: rename newfile.txt to ../newfile.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 160
+drwxr-xr-x+ 32 TylerLidster  staff   1088 Sep 17 17:12 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+-rw-r--r--   1 TylerLidster  staff     14 Sep 17 16:44 somefile.txt
+drwxr-xr-x   4 TylerLidster  staff    136 Sep 17 17:12 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ mv somefile.txt testdir
+Tylers-MacBook-Pro:~ TylerLidster$ mv somefilei.txt ..
+mv: rename somefilei.txt to ../somefilei.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir newdirec
+Tylers-MacBook-Pro:~ TylerLidster$ 
+Tylers-MacBook-Pro:~ TylerLidster$ mv somefile.txt new_file.txt
+mv: rename somefile.txt to new_file.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ mv somefile.txt testdir/new_file.txt
+mv: rename somefile.txt to testdir/new_file.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ ls testdir/
+newfile.txt	somefile.txt	test1
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ ls-la
+-bash: ls-la: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 152
+drwxr-xr-x+ 32 TylerLidster  staff   1088 Sep 17 17:52 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+drwxr-xr-x   2 TylerLidster  staff     68 Sep 17 17:52 newdirec
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+drwxr-xr-x   5 TylerLidster  staff    170 Sep 17 17:50 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ nano overwrite_test1.txt
+Tylers-MacBook-Pro:~ TylerLidster$ nano overwrite_test2.txt
+Tylers-MacBook-Pro:~ TylerLidster$ overwrite_test1.txt
+-bash: overwrite_test1.txt: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ cat overwrite_test1.txt
+Tylers-MacBook-Pro:~ TylerLidster$ 
+Tylers-MacBook-Pro:~ TylerLidster$ nano overwrite_test1.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 168
+drwxr-xr-x+ 34 TylerLidster  staff   1156 Sep 17 18:12 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-r--r--   1 TylerLidster  staff     61 Sep 17 14:44 my.sh
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+drwxr-xr-x   2 TylerLidster  staff     68 Sep 17 17:52 newdirec
+-rw-r--r--   1 TylerLidster  staff      8 Sep 17 18:13 overwrite_test1.txt
+-rw-r--r--   1 TylerLidster  staff      7 Sep 17 18:12 overwrite_test2.txt
+-rw-r--r--   1 TylerLidster  staff  36233 Sep 17 17:01 readingfiles.txt
+drwxr-xr-x   5 TylerLidster  staff    170 Sep 17 17:50 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+Tylers-MacBook-Pro:~ TylerLidster$ mkdir unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ nano mkdir unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ mv readingfiles.txt unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ mv overwrite_test1.txt unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ mv overwrite_test2.txt unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ mv my.sh unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ nano unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ ls unix_files
+my.sh			overwrite_test2.txt
+overwrite_test1.txt	readingfiles.txt
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ ls unix_files
+my.sh			overwrite_test2.txt
+overwrite_test1.txt	readingfiles.txt
+Tylers-MacBook-Pro:~ TylerLidster$ cat new_file.txt
+cat: new_file.txt: No such file or directory
+Tylers-MacBook-Pro:~ TylerLidster$ nano new_file.txt
+Tylers-MacBook-Pro:~ TylerLidster$ cat new_file.txt
+new file
+
+Tylers-MacBook-Pro:~ TylerLidster$ unix_files cp new_file.txt newer_file.txt
+-bash: unix_files: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ ls -la
+total 80
+drwxr-xr-x+ 32 TylerLidster  staff   1088 Sep 17 18:19 .
+drwxr-xr-x   6 root          admin    204 Nov  4  2014 ..
+-r--------   1 TylerLidster  staff      7 Nov  4  2014 .CFUserTextEncoding
+-rw-r--r--@  1 TylerLidster  staff  10244 Sep  9 21:20 .DS_Store
+drwx------  27 TylerLidster  staff    918 Sep 17 16:52 .Trash
+drwxr-xr-x   4 TylerLidster  staff    136 Jul  2  2014 .adobe
+-rw-------   1 TylerLidster  staff    413 Sep 17 16:36 .bash_history
+drwxr-xr-x   3 TylerLidster  staff    102 Jul  9  2014 .config
+-rw-r--r--   1 TylerLidster  staff    547 Apr 17 16:44 .gitconfig
+-rw-r--r--@  1 TylerLidster  admin     13 Jul  8  2014 .gitignore_global
+-rw-r--r--@  1 TylerLidster  admin     27 Jul  8  2014 .hgignore_global
+drwxr-xr-x   4 TylerLidster  staff    136 Jul 28 17:00 .phet
+drwx------   5 TylerLidster  staff    170 Jul  9  2014 .ssh
+drwxr-xr-x   2 TylerLidster  staff     68 Sep  1  2014 .subversion
+drwxr-xr-x   3 TylerLidster  staff    102 Apr  3 19:45 .swt
+drwx------   7 TylerLidster  staff    238 Aug 26 20:09 Applications
+drwxr-xr-x@  4 TylerLidster  staff    136 Mar 22 19:36 Books
+drwx------@  5 TylerLidster  staff    170 Sep  9 18:05 Creative Cloud Files
+drwx------+ 11 TylerLidster  staff    374 Sep 17 14:14 Desktop
+drwx------+ 14 TylerLidster  staff    476 Aug 27 19:29 Documents
+drwx------+  6 TylerLidster  staff    204 Sep 17 16:52 Downloads
+drwx------@ 57 TylerLidster  staff   1938 Sep 17 11:57 Library
+drwx------+  7 TylerLidster  staff    238 Aug  2 17:15 Movies
+drwx------+  6 TylerLidster  staff    204 Jun 15 18:49 Music
+drwx------+  6 TylerLidster  staff    204 May 28 21:16 Pictures
+drwxr-xr-x+  5 TylerLidster  staff    170 Jul  1  2014 Public
+-rw-------   1 TylerLidster  staff     46 Sep 17 14:32 my.sh.save
+-rw-r--r--   1 TylerLidster  staff     10 Sep 17 18:19 new_file.txt
+drwxr-xr-x   2 TylerLidster  staff     68 Sep 17 17:52 newdirec
+drwxr-xr-x   5 TylerLidster  staff    170 Sep 17 17:50 testdir
+drwxr-xr-x   2 TylerLidster  staff     68 Jul 11  2014 tmp
+drwxr-xr-x   6 TylerLidster  staff    204 Sep 17 18:17 unix_files
+Tylers-MacBook-Pro:~ TylerLidster$ 
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+Tylers-MacBook-Pro:~ TylerLidster$ unix_files ls -la
+-bash: unix_files: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ unix-files TylerLidster$
+-bash: unix-files: command not found
+Tylers-MacBook-Pro:~ TylerLidster$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tylers-MacBook-Pro:~ TylerLidster$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
